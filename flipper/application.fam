@@ -1,0 +1,14 @@
+App(
+    appid="dictation",
+    name="Dictation",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="dictation_app_entry",
+    stack_size=4 * 1024,
+    fap_category="USB",
+    fap_icon="dictation.png",
+    fap_icon_assets="assets",
+    fap_author="@adesmond00",
+    fap_version="1.0",
+    fap_description="BLE-to-USB HID keyboard bridge for dictation",
+    requires=["gui", "bt"],
+)
